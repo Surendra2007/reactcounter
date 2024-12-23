@@ -1,0 +1,47 @@
+body{
+    height: 90vh;
+}
+#root{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .button {
+    text-align: center;
+    gap: 20px;
+  }
+  .btn-child {
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15%;
+    margin-right: 2dvh;
+  }
+  #btn-child1 {
+    background-color: red;
+  }
+  #btn-child2 {
+    background-color: green;
+  }
+  #btn-child3 {
+    background-color: blue;
+  }
+  @media (max-width: 332px) {
+    .button {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: auto;
+    }
+  }
+  
